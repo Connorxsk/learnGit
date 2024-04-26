@@ -4,3 +4,5 @@ git add 1.txt
 git log
 git commit -m "add 1.txt"
 git add.
+git reset//慎用：撤销
+git checkout//慎用：撤销未保存内容
