@@ -5,8 +5,9 @@ git add .//全部
 git log
 git log --oneline
 git commit -m "add 1.txt"
-git reset HEAD(HEAD~1,HEAD~2,//慎用：撤销
-git reset --hard HEAD
+git reset//慎用：撤销
+git reset HEAD或者HEAD~1，HEAD~2//重置暂存区，不改变工作目录
+git reset --hard HEAD//暂存区和工作目录都改变，未保存内容消失
 git checkout//慎用：撤销未保存内容
 git checkout main或者feature_a//变更branch
 git branch
